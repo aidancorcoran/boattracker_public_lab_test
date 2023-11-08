@@ -1,8 +1,12 @@
-package boattracker;
+package boattracker.boats;
+
+import boattracker.internal.*;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
 import java.util.Iterator;
+
 public class BoatTable {
     // maps boats to a list of users
     private HashMap hm = new HashMap();
